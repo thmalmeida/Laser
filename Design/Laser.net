@@ -1,0 +1,286 @@
+# EESchema Netlist Version 1.1 created  04/12/2012 15:51:38
+(
+ ( /50B26E4F C2V10 C1 1000u
+  ( 1 GND1 )
+  ( 2 /Vdd )
+ )
+ ( /50B26E57 C2 C2 330n
+  ( 1 /Vdd )
+  ( 2 GND1 )
+ )
+ ( /50B26FC7 C2 C3 100n
+  ( 1 +5V )
+  ( 2 GND1 )
+ )
+ ( /50BA383F C2V10 C4 3300u
+  ( 1 N-000049 )
+  ( 2 /Vdd )
+ )
+ ( /50BA3844 C2V10 C5 2200u
+  ( 1 GND1 )
+  ( 2 /L_A_Front+ve )
+ )
+ ( /50BA39C5 C2V10 C6 3300u
+  ( 1 N-000048 )
+  ( 2 /Vdd )
+ )
+ ( /50BA39C4 C2V10 C7 2200u
+  ( 1 GND1 )
+  ( 2 /Peltier_+ve )
+ )
+ ( /50BBDC6F bornier2 Conector1 CONECTOR_2
+  ( 1 /Vdd )
+  ( 2 GND1 )
+ )
+ ( /50B22A29 SM0603 D1 D_LED
+  ( 1 GND1 )
+  ( 2 N-000002 )
+ )
+ ( /50BD1171 SM0603 D2 D_LED
+  ( 1 GND1 )
+  ( 2 N-000045 )
+ )
+ ( /50BD1174 LED-3MM D3 D_LED
+  ( 1 GND1 )
+  ( 2 N-000046 )
+ )
+ ( /50B22FE9 TQFP32 IC1 ATMEGA168_-_UC
+  ( 1 /PD3 )
+  ( 2 ? )
+  ( 3 GND1 )
+  ( 4 +5V )
+  ( 5 GND1 )
+  ( 6 +5V )
+  ( 7 /Data_Bit3 )
+  ( 8 /Data_Bit2 )
+  ( 9 /Data_Bit1 )
+  ( 10 /Data_Bit0 )
+  ( 11 /E )
+  ( 12 /RS )
+  ( 13 /PWM_Laser )
+  ( 14 /PWM_Peltier )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /SCK )
+  ( 18 +5V )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND1 )
+  ( 22 /ADC_PD )
+  ( 23 /ADC_Laser )
+  ( 24 /ADC_Thermistor )
+  ( 25 /ADC_Peltier )
+  ( 26 /DOWN )
+  ( 27 /UP )
+  ( 28 /StandBy )
+  ( 29 /RST )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 /PD2 )
+ )
+ ( /50B2297E DIP-14__300 IC2 DFB_LASER
+  ( 1 /Peltier_+ve )
+  ( 4 GND1 )
+  ( 6 ? )
+  ( 7 GND1 )
+  ( 8 /ADC_PD )
+  ( 9 /L_A_Front+ve )
+  ( 10 /ADC_Laser )
+  ( 11 /ADC_Thermistor )
+  ( 14 /ADC_Peltier )
+ )
+ ( /50BA3687 INDUCTOR_V L1 L_MINI
+  ( 1 N-000049 )
+  ( 2 /L_A_Front+ve )
+ )
+ ( /50BA39C8 INDUCTOR_V L2 L_MINI
+  ( 1 N-000048 )
+  ( 2 /Peltier_+ve )
+ )
+ ( /50BA353A TO92-123 Q1 NPN
+  ( 1 GND1 )
+  ( 2 N-000008 )
+  ( 3 N-000010 )
+ )
+ ( /50BA39CA TO92-123 Q2 NPN
+  ( 1 GND1 )
+  ( 2 N-000006 )
+  ( 3 N-000005 )
+ )
+ ( /50B2715B R4-LARGE_PADS R1 10k
+  ( 1 +5V )
+  ( 2 /RST )
+ )
+ ( /50B270E0 SM0603_Resistor R2 1k
+  ( 1 N-000001 )
+  ( 2 +5V )
+ )
+ ( /50B26E43 SM0603_Resistor R3 470
+  ( 1 +5V )
+  ( 2 N-000002 )
+ )
+ ( /50B26D31 R4-LARGE_PADS R4 1k
+  ( 1 /PWM_Laser )
+  ( 2 N-000008 )
+ )
+ ( /50B26D2D SM0603_Resistor R5 39
+  ( 1 /ADC_Laser )
+  ( 2 GND1 )
+ )
+ ( /50BB910B SM0603_Resistor R6 39
+  ( 1 /ADC_Laser )
+  ( 2 GND1 )
+ )
+ ( /50BB910D SM0603_Resistor R7 39
+  ( 1 /ADC_Laser )
+  ( 2 GND1 )
+ )
+ ( /50BB910E SM0603_Resistor R8 39
+  ( 1 /ADC_Laser )
+  ( 2 GND1 )
+ )
+ ( /50BB910F SM0603_Resistor R9 39
+  ( 1 /ADC_Laser )
+  ( 2 GND1 )
+ )
+ ( /50B22CCF R5 R10 3k3
+  ( 1 +5V )
+  ( 2 /ADC_PD )
+ )
+ ( /50BA3811 SM0603_Resistor R11 220
+  ( 1 N-000009 )
+  ( 2 N-000010 )
+ )
+ ( /50BA39CB R5 R12 1k
+  ( 1 /PWM_Peltier )
+  ( 2 N-000006 )
+ )
+ ( /50BA39C7 SM0603_Resistor R13 220
+  ( 1 N-000003 )
+  ( 2 N-000005 )
+ )
+ ( /50BB9110 SM0603_Resistor R14 39
+  ( 1 /ADC_Laser )
+  ( 2 GND1 )
+ )
+ ( /50B22CBC R4-LARGE_PADS R15 3k3
+  ( 1 +5V )
+  ( 2 /ADC_Thermistor )
+ )
+ ( /50BB9144 SM0603_Resistor R16 39
+  ( 1 /ADC_Peltier )
+  ( 2 GND1 )
+ )
+ ( /50B234E2 R3-LARGE_PADS R17 10k
+  ( 1 +5V )
+  ( 2 /UP )
+ )
+ ( /50BB9142 SM0603_Resistor R18 39
+  ( 1 /ADC_Peltier )
+  ( 2 GND1 )
+ )
+ ( /50B23755 R3-LARGE_PADS R19 10k
+  ( 1 +5V )
+  ( 2 /DOWN )
+ )
+ ( /50BB9141 SM0603_Resistor R20 39
+  ( 1 /ADC_Peltier )
+  ( 2 GND1 )
+ )
+ ( /50BB9140 SM0603_Resistor R21 39
+  ( 1 /ADC_Peltier )
+  ( 2 GND1 )
+ )
+ ( /50BB913F SM0603_Resistor R22 39
+  ( 1 /ADC_Peltier )
+  ( 2 GND1 )
+ )
+ ( /50BB913E SM0603_Resistor R23 39
+  ( 1 /ADC_Peltier )
+  ( 2 GND1 )
+ )
+ ( /50BBCE84 R3-LARGE_PADS R24 10k
+  ( 1 +5V )
+  ( 2 /StandBy )
+ )
+ ( /50BD0043 SM0603_Resistor R25 8k2
+  ( 1 N-000028 )
+  ( 2 +5V )
+ )
+ ( /50BD003E SM0603_Resistor R26 1k5
+  ( 1 GND1 )
+  ( 2 N-000028 )
+ )
+ ( /50BD1163 SM0603_Resistor R27 470
+  ( 1 /PD2 )
+  ( 2 N-000045 )
+ )
+ ( /50BD116E SM0603_Resistor R28 470
+  ( 1 /PD3 )
+  ( 2 N-000046 )
+ )
+ ( /50B23720 Switch_TH_TL59 SW1 SWITCH_PUSHBUTTON
+  ( 1 /UP )
+  ( 2 GND1 )
+ )
+ ( /50B23753 Switch_TH_TL59 SW2 SWITCH_PUSHBUTTON
+  ( 1 /DOWN )
+  ( 2 GND1 )
+ )
+ ( /50BBCE86 Switch_TH_TL59 SW3 SWITCH_PUSHBUTTON
+  ( 1 /StandBy )
+  ( 2 GND1 )
+ )
+ ( /50B229CF pin_array_3x2 U1 ICSP_SPI_6PIN
+  ( 1 /MISO )
+  ( 2 +5V )
+  ( 3 /SCK )
+  ( 4 /MOSI )
+  ( 5 /RST )
+  ( 6 GND1 )
+ )
+ ( /50B234C9 SIL-16_thma U2 LCD
+  ( 1 GND1 )
+  ( 2 +5V )
+  ( 3 N-000028 )
+  ( 4 /RS )
+  ( 5 GND1 )
+  ( 6 /E )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /Data_Bit0 )
+  ( 12 /Data_Bit1 )
+  ( 13 /Data_Bit2 )
+  ( 14 /Data_Bit3 )
+  ( 15 N-000001 )
+  ( 16 GND1 )
+ )
+ ( /50B26DA8 ua7805 U3 UA7805
+  ( 1 /Vdd )
+  ( 2 +5V )
+  ( 3 GND1 )
+ )
+ ( /50BA366D TO-220 U4 PNP_TO-220
+  ( 1 N-000009 )
+  ( 2 N-000049 )
+  ( 3 /Vdd )
+ )
+ ( /50BA39C9 TO-220 U5 PNP_TO-220
+  ( 1 N-000003 )
+  ( 2 N-000048 )
+  ( 3 /Vdd )
+ )
+)
+*
+{ Allowed footprints by component:
+$component U1
+ SOT23
+ SOT23-5
+ SOT23-6
+ SOT223
+ SON8
+$endlist
+$endfootprintlist
+}
